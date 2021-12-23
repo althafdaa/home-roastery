@@ -1,0 +1,255 @@
+/* FONT */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap");
+</style>
+
+/* CSS RESET */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-family: "Montserrat";
+  font-weight: 400;
+}
+
+/* START */
+
+/* HEADER */
+
+header {
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(asset/background-fix.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  font-size: 18px;
+}
+
+/* NAVBAR */
+
+.bg-navbar__coffee {
+  background: rgba(95, 71, 49, 0.2);
+}
+
+nav .container-fluid .collapse a {
+  border-radius: 8px;
+  color: white;
+}
+
+nav .container-fluid .collapse a:hover {
+  background: rgba(255, 255, 255, 0.3);
+  color: black;
+}
+
+/* MAIN */
+main h1,
+main h2 {
+  color: white;
+}
+
+main h1 {
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+main h2 {
+  font-weight: 400;
+}
+
+.list-findus li i {
+  color: white;
+  font-size: 32px;
+  cursor: pointer;
+}
+
+.list-findus li i:hover {
+  color: black;
+}
+
+/* NEXT SECTION */
+
+.next-section:hover {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.next-section h5 {
+  margin-bottom: -0.5rem;
+}
+.next-section i {
+  font-size: 32px;
+}
+
+/* HEADER END */
+
+/* PRODUCTS */
+.products {
+  height: 100%;
+}
+
+.products h1 {
+  font-size: 5rem;
+}
+
+.products h2 {
+  font-weight: 400;
+}
+
+.products .product-carousel__container {
+}
+
+.products .product-description {
+  height: 100%;
+  position: relative;
+}
+
+.products .product-description .btn-order {
+  border: none;
+  padding: 0.8rem 1.5rem;
+  border-radius: 12px;
+  background: #a8684d;
+  color: white;
+}
+
+.products .product-description .btn-order:hover {
+  background: #553527;
+  color: whitesmoke;
+}
+
+.products .product-description p {
+  text-align: justify;
+}
+
+.product-description .next-section {
+  color: black;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.product-description .next-section:hover {
+  background: rgba(0, 0, 0, 0);
+  transform: translateY(5px);
+}
+
+/* PRODUCTS END */
+
+/* TESTI */
+
+.user-testi {
+  height: 100vh;
+}
+
+.testi-img__container {
+  height: 100vh;
+  width: 100vh;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background: url(asset/customer-all.jpg);
+}
+
+.user-testi__side {
+  height: 100vh;
+}
+
+.score-text__wrapper {
+  margin: 3rem;
+  padding: 3rem;
+}
+
+.button-scores {
+  border-radius: 0.5rem;
+  font-weight: 700;
+  padding: 1rem 6rem;
+  background: #ffb548;
+  border-color: #ffb548;
+}
+
+.card-score__wrapper {
+}
+
+.card-score {
+  background: #a8684d;
+  border-radius: 1rem;
+  width: 28rem;
+  box-sizing: border-box;
+  margin-bottom: 1rem;
+}
+
+.card-score__pic {
+  height: 4rem;
+  border-radius: 100%;
+  box-shadow: 10px 1px rgba(255, 181, 72, 1);
+}
+
+.card-score__id p {
+  line-height: 0.5rem;
+}
+
+.card-score__id p span {
+  font-size: 24px;
+  color: #ffb548;
+}
+
+.card-score__icon {
+  width: 18px;
+  height: 14px;
+}
+
+.card-score__text {
+  font-family: "Open Sans";
+}
+
+.card-score__text p {
+  font-size: 18px;
+  color: #fff;
+}
+
+.card-score__tag {
+  font-size: 14px;
+}
+
+.card-score__wrapper .user-2 {
+  marginleft: 5rem;
+}
+
+.user-testi .user-1 {
+  margin-left: -16rem;
+}
+.user-testi .user-2 {
+  margin-left: 0rem;
+}
+.user-testi .user-3 {
+  margin-left: 16rem;
+}
+
+.dnone {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .user-testi .back-to__top {
+    display: none;
+  }
+  .user-testi .back-to__top a {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .user-testi .user-1,
+  .user-testi .user-2,
+  .user-testi .user-3 {
+    margin-left: inherit;
+  }
+}
+
+.back-to__top {
+  position: fixed;
+  bottom: 0;
+}
+
+.back-to__link {
+  font-size: 36px;
+}

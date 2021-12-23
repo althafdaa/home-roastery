@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- BOOTSTRAP & CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+
+    <!-- BOOTSTRAP ICON -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"
+    />
+    <title>Home Roastery</title>
+  </head>
+  <body>
+    <header id="main" class="d-flex flex-column justify-content-between">
+      <nav class="navbar navbar-expand-md bg-navbar__coffee">
+        <div class="container-fluid">
+          <a class="navbar-brand fw-bold fs-1 ms-md-5 text-white" href="#"
+            >LOGO</a
+          >
+
+          <button
+            class="navbar-toggler navbar-dark"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div
+            class="collapse navbar-dark navbar-collapse text-center"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item mx-4">
+                <a class="nav-link active" aria-current="page" href="">Home</a>
+              </li>
+              <li class="nav-item mx-4">
+                <a class="nav-link active" href="#our-products">Product</a>
+              </li>
+              <li class="nav-item mx-4">
+                <a class="nav-link active" href="#testimotionals"
+                  >Testimotionals</a
+                >
+              </li>
+            </ul>
+            <ul class="navbar-nav me-md-5">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  href="https://api.whatsapp.com/send/?phone=6281232587121"
+                  target="__blank"
+                  >Contact Us</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- main -->
+      <main class="container text-center align-self-center">
+        <h1 class="mb-4">HOME ROASTERY</h1>
+        <h2 class="mb-4">Experimental Coffee All Across Indonesia</h2>
+        <h2 class="mb-4">Find Us</h2>
+        <ul class="list-findus d-flex list-unstyled justify-content-center">
+          <li class="mx-3">
+            <a
+              href="https://api.whatsapp.com/send/?phone=6281232587121"
+              target="__blank"
+            >
+              <i class="bi bi-whatsapp"></i>
+            </a>
+          </li>
+          <li class="mx-3">
+            <a href="https://www.instagram.com/home.roastery/" target="__blank">
+              <i class="bi bi-instagram"></i>
+            </a>
+          </li>
+          <li class="mx-3">
+            <a href="https://www.tokopedia.com/homeroastery-1" target="__blank">
+              <i class="bi bi-basket"></i>
+            </a>
+          </li>
+        </ul>
+      </main>
+      <a
+        class="text-white text-decoration-none text-center next-section"
+        href="#our-products"
+      >
+        <h5>Our Product</h5>
+        <i class="bi bi-arrow-down-short"></i>
+      </a>
+    </header>
+
+    <section class="products" id="our-products">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="product-carousel__container">
+            <!-- CAROUSEL -->
+            <div
+              id="carouselExampleIndicators"
+              class="carousel slide"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-indicators">
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="0"
+                  class="active"
+                  aria-current="true"
+                  aria-label="Slide 1"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="1"
+                  aria-label="Slide 2"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="2"
+                  aria-label="Slide 3"
+                ></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="asset/product-1-fix.jpg"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="asset/product-2-fix.jpg"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="asset/product-3-fix.jpg"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="
+            col-md-6
+            product-description
+            d-flex
+            flex-column
+            justify-content-center
+          "
+        >
+          <div class="d-flex flex-column justify-content-center m-5 p-5">
+            <h1 class="fw-bold">Our Products</h1>
+            <h2>The Best Seller</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Reprehenderit eius tenetur et ipsum ut suscipit eveniet optio quae
+              ea. Laborum iusto fugiat enim beatae? Ut architecto, veritatis
+              laboriosam sunt nemo maiores. Similique ea esse voluptates, magni
+              fugit nobis incidunt placeat excepturi soluta maxime maiores
+              nostrum. Placeat odio quos facere iure nisi libero sed natus,
+              maxime itaque aliquam, doloremque fugiat. Exercitationem voluptate
+              temporibus aperiam expedita perferendis autem id ipsa labore aut
+              modi quaerat voluptatibus commodi cum, maxime possimus iure quis
+              reprehenderit.
+            </p>
+            <div>
+              <button type="button" class="btn-order">Order Now</button>
+            </div>
+          </div>
+          <a
+            class="text-decoration-none text-center next-section"
+            href="#testimotionals"
+          >
+            <h5>What our customer said</h5>
+            <i class="bi bi-arrow-down-short"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="user-testi" id="testimotionals">
+      <div class="row">
+        <div
+          class="
+            user-testi__side
+            d-flex
+            flex-column
+            justify-content-between
+            col-lg-6
+          "
+        >
+          <div
+            class="
+              card-score__wrapper
+              mt-5
+              p-5
+              d-flex
+              flex-column
+              align-items-center
+            "
+          >
+            <div class="card-score user-1">
+              <div class="card-score__name d-flex justify-content-between p-4">
+                <div class="d-flex">
+                  <img
+                    class="card-score__pic"
+                    src="https://picsum.photos/200"
+                    alt=""
+                  />
+
+                  <div class="card-score__id mx-4 my-auto">
+                    <p><span>Ahmad Al-Banjaran</span></p>
+                    <p class="card-score__tag">Pegawai</p>
+                  </div>
+                </div>
+                <img
+                  class="card-score__icon"
+                  src="/assets/twitter.svg"
+                  alt=""
+                />
+              </div>
+              <div class="card-score__text px-4 pb-4">
+                <p>"One of the best quality coffee beans i ever bought."</p>
+                <text>June 18, 2021</text>
+              </div>
+            </div>
+
+            <div class="card-score user-2">
+              <div class="card-score__name d-flex justify-content-between p-4">
+                <div class="d-flex">
+                  <img
+                    class="card-score__pic"
+                    src="https://picsum.photos/201"
+                    alt=""
+                  />
+                  <div class="card-score__id mx-4 my-auto">
+                    <p><span>Yudha Saputra</span></p>
+                    <p class="card-score__tag">Entrepreneur</p>
+                  </div>
+                </div>
+                <img
+                  class="card-score__icon"
+                  src="/assets/twitter.svg"
+                  alt=""
+                />
+              </div>
+              <div class="card-score__text px-4 pb-4">
+                <p>"Rasanya enak banget!"</p>
+                <text>July 10, 2021</text>
+              </div>
+            </div>
+
+            <div class="card-score user-3">
+              <div class="card-score__name d-flex justify-content-between p-4">
+                <div class="d-flex">
+                  <img
+                    class="card-score__pic"
+                    src="https://picsum.photos/103"
+                    alt=""
+                  />
+                  <div class="card-score__id mx-4 my-auto">
+                    <p><span>Arta W</span></p>
+                    <p class="card-score__tag">Mahasiswa</p>
+                  </div>
+                </div>
+                <img
+                  class="card-score__icon"
+                  src="/assets/twitter.svg"
+                  alt=""
+                />
+              </div>
+              <div class="card-score__text px-4 pb-4">
+                <p>"Harganya terjangkau banget, rasanya ga main-main"</p>
+                <text>December 24, 2018</text>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6 d-flex flex-column align-items-end">
+          <div
+            id="carouselExampleSlidesOnly"
+            class="carousel slide"
+            data-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  class="d-block w-100"
+                  src="asset/customer-all.jpg"
+                  alt="First slide"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="back-to__top mb-3">
+      <a class="back-to__link text-decoration-none text-dark" href="#main">
+        <i class="bi bi-arrow-up-circle-fill m-5"></i>
+      </a>
+    </div>
+
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
