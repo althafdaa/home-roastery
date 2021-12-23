@@ -15,6 +15,10 @@ html {
 
 /* START */
 
+body {
+  overflow-x: hidden;
+}
+
 /* HEADER */
 
 header {
