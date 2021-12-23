@@ -5,7 +5,7 @@ Second personal project that i made is a landing page for my friends business. I
 ### Screenshot
 
 ![](./screenshoot/1.jpg)
-![](./screenshoot/2.jpg)
+![](./screenshoot/2.png)
 
 ### Links
 
